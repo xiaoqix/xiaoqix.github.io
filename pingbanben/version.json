@@ -2,11 +2,11 @@
   "version": "3.2.0",
   "release_date": "2023-12-15",
   "release_notes": [
-    "新增端口扫描功能e1",
-    "优化多线程扫描性能e1",
-    "增加设备厂商识别e1",
-    "修复MAC地址获取问题e1",
-    "改进高DPI显示支持e1",
+    "新增端口扫描功能",
+    "优化多线程扫描性能",
+    "增加设备厂商识别",
+    "修复MAC地址获取问题",
+    "改进高DPI显示支持",
     "增加回车确定扫描的功能"
   ],
   "download_url": "https://github.com/yourusername/ip-scanner/releases/download/v2.2.0/IP-Scanner-v2.2.0.exe",
