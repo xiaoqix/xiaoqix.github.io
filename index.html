@@ -1,1 +1,262 @@
-3.0.0
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的GitHub页面</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="material-symbols-outlined">code</span>
+                <span>我的GitHub</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">关于我</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">项目</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">技能</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">联系</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 主要内容区域 -->
+    <main class="main-content">
+        <!-- 头部介绍 -->
+        <section class="hero-section">
+            <div class="hero-container">
+                <div class="hero-avatar">
+                    <img src="https://via.placeholder.com/150" alt="头像" class="avatar">
+                </div>
+                <div class="hero-text">
+                    <h1 class="hero-title">你好，我是<span class="highlight">开发者</span></h1>
+                    <p class="hero-description">一名热衷于创造优雅解决方案的软件开发者</p>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary">查看项目</a>
+                        <a href="#contact" class="btn btn-secondary">联系我</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 关于我 -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">关于我</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>我是一名充满激情的开发者，专注于创建高效、用户友好的应用程序。我相信代码不仅应该工作良好，还应该易于理解和维护。</p>
+                        <p>在我的空闲时间，我喜欢探索新技术，为开源项目做贡献，并不断学习以提高我的技能。</p>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat-card">
+                            <span class="stat-number">3+</span>
+                            <span class="stat-label">年开发经验</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">20+</span>
+                            <span class="stat-label">完成项目</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label">技术栈</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 项目展示 -->
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title">精选项目</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://via.placeholder.com/300x180" alt="项目1">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">项目名称 1</h3>
+                            <p class="project-description">这是一个使用现代技术栈构建的Web应用程序，具有响应式设计和优秀的用户体验。</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">JavaScript</span>
+                            </div>
+                            <div class="project-actions">
+                                <a href="#" class="btn btn-outline">查看详情</a>
+                                <a href="#" class="btn btn-text">
+                                    <span class="material-symbols-outlined">code</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://via.placeholder.com/300x180" alt="项目2">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">项目名称 2</h3>
+                            <p class="project-description">这是一个移动应用项目，专注于性能优化和简洁的用户界面设计。</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">MongoDB</span>
+                            </div>
+                            <div class="project-actions">
+                                <a href="#" class="btn btn-outline">查看详情</a>
+                                <a href="#" class="btn btn-text">
+                                    <span class="material-symbols-outlined">code</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://via.placeholder.com/300x180" alt="项目3">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">项目名称 3</h3>
+                            <p class="project-description">一个开源工具库，帮助开发者提高工作效率，包含多个实用功能和组件。</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">TypeScript</span>
+                                <span class="tech-tag">Vue</span>
+                                <span class="tech-tag">Python</span>
+                            </div>
+                            <div class="project-actions">
+                                <a href="#" class="btn btn-outline">查看详情</a>
+                                <a href="#" class="btn btn-text">
+                                    <span class="material-symbols-outlined">code</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 技能 -->
+        <section id="skills" class="section">
+            <div class="container">
+                <h2 class="section-title">技能与专长</h2>
+                <div class="skills-container">
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">前端技术</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <span class="skill-name">HTML/CSS</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">JavaScript</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">React</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">后端技术</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <span class="skill-name">Node.js</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 75%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Python</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 70%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">数据库</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 65%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 联系 -->
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title">联系我</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <p>如果您对我的工作感兴趣，或者想讨论潜在的合作机会，请随时与我联系。</p>
+                        <div class="contact-links">
+                            <a href="mailto:your.email@example.com" class="contact-link">
+                                <span class="material-symbols-outlined">mail</span>
+                                your.email@example.com
+                            </a>
+                            <a href="https://github.com/yourusername" class="contact-link">
+                                <span class="material-symbols-outlined">code</span>
+                                github.com/yourusername
+                            </a>
+                            <a href="#" class="contact-link">
+                                <span class="material-symbols-outlined">person</span>
+                                LinkedIn
+                            </a>
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">姓名</label>
+                            <input type="text" id="name" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">邮箱</label>
+                            <input type="email" id="email" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">消息</label>
+                            <textarea id="message" class="form-input" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">发送消息</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 我的GitHub页面. 保留所有权利.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
